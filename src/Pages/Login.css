@@ -1,0 +1,50 @@
+.heading-section {
+  font-family: "Nunito", sans-serif;
+}
+.heading-section > h1 {
+  color: aliceblue;
+  font-size: 4rem;
+}
+.login-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+}
+.form-section {
+  padding: 2rem;
+}
+.form-section > form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+input {
+  width: 22rem;
+  height: 6vh;
+  border-radius: 5px;
+  margin: 5px;
+  outline: none;
+  color: palegreen;
+  background-color: rgb(107, 107, 107);
+  border: none;
+  padding: 5px;
+}
+button {
+  padding-left: 4vh;
+  padding-right: 4vh;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+  font-size: 1rem;
+  color: #ffffff;
+  border-radius: 5px;
+  background-color: rgb(41, 51, 51);
+  border: none;
+  cursor: pointer;
+}

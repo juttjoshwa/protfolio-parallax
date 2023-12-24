@@ -1,0 +1,144 @@
+.GitContainer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.GitTitle {
+  font-size: 15vh;
+  color: #333;
+}
+.gitHUBChart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 67%;
+}
+.dates {
+  color: #555;
+  font-size: 14px;
+  gap: 55px;
+  display: flex;
+  margin-right: 10px;
+  padding: 10px;
+  justify-content: space-between;
+}
+.GithubTitle {
+  font-size: 70px;
+  border-radius: 2px;
+  cursor: pointer;
+  color: #333;
+  text-align: center;
+}
+.box {
+  width: 17px;
+  height: 17px;
+  background-color: #171c25;
+  transition: all 3s ease;
+}
+.boxContainer {
+  flex-wrap: wrap;
+  display: flex;
+  gap: 5px;
+}
+.active:nth-child(11n) {
+  background-color: #195b2c;
+}
+.gitHUBChart:hover .active:nth-child(2n + 1) {
+  background-color: #164d38;
+}
+.gitHUBChart:hover .active:nth-child(2n) {
+  background-color: #195b2c;
+}
+.admin-btn {
+  position: relative;
+  left: 32rem;
+  padding: 2rem;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: transparent;
+  bottom: 6rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .GitContainer {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .GitTitle {
+    font-size: 4vh;
+    color: #333;
+  }
+  .gitHUBChart {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+  }
+  .gitHub-Img-container-for-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .gitHub-Img-container-for-mobile .GitHub-Img-Mobile {
+    width: 250px;
+    height: 250px;
+  }
+  .dates {
+    color: #555;
+    font-size: 14px;
+    gap: 55px;
+    display: flex;
+    margin-right: 10px;
+    padding: 10px;
+    justify-content: space-between;
+  }
+  .GithubTitle {
+    font-size: 70px;
+    border-radius: 2px;
+    cursor: pointer;
+    color: #333;
+    text-align: center;
+  }
+  .box {
+    width: 17px;
+    height: 17px;
+    background-color: #171c25;
+    transition: all 3s ease;
+  }
+  .boxContainer {
+    flex-wrap: wrap;
+    display: flex;
+    gap: 5px;
+  }
+  .active:nth-child(11n) {
+    background-color: #195b2c;
+  }
+  .gitHUBChart:hover .active:nth-child(2n + 1) {
+    background-color: #164d38;
+  }
+  .gitHUBChart:hover .active:nth-child(2n) {
+    background-color: #195b2c;
+  }
+  .admin-btn {
+    position: relative;
+    left: 32rem;
+    padding: 2rem;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: transparent;
+    bottom: 6rem;
+  }
+}

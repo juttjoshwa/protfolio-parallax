@@ -1,0 +1,78 @@
+.admin-container-section {
+  background-color: transparent;
+}
+.hading-section {
+  text-align: center;
+}
+.hading-section > h1 {
+  font-size: 4rem;
+  color: rgb(0, 0, 0);
+  font-family: "Nunito", sans-serif;
+}
+.admin-form {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  padding: 2rem;
+  flex-direction: column;
+}
+.admin-form > input {
+  width: 28rem;
+  background-color: rgb(215, 225, 235);
+  color: black;
+  padding: 1rem;
+  height: 10px;
+}
+.admin-form > textarea {
+  outline: none;
+  border: none;
+  width: 28rem;
+  height: 12rem;
+  background-color: rgb(215, 225, 235);
+  padding: 10px;
+  border-radius: 4px;
+  margin-left: 5px;
+}
+.admin-form > button {
+  margin-left: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+  .admin-container-section {
+    background-color: transparent;
+  }
+  .hading-section {
+    text-align: center;
+  }
+  .hading-section > h1 {
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    font-family: "Nunito", sans-serif;
+  }
+  .admin-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .admin-form > input {
+    width: 18rem;
+    background-color: rgb(215, 225, 235);
+    color: black;
+    padding: 1rem;
+    height: 10px;
+  }
+  .admin-form > textarea {
+    outline: none;
+    border: none;
+    width: 18rem;
+    height: 12rem;
+    background-color: rgb(215, 225, 235);
+    padding: 10px;
+    border-radius: 4px;
+    margin-left: 5px;
+  }
+  .admin-form > button {
+    margin-left: 5px;
+  }
+}

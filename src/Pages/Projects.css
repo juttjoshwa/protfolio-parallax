@@ -1,0 +1,361 @@
+.ProjectsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 30vh;
+  padding: 0px 90px;
+}
+.all-container:nth-child(2n) {
+  flex-direction: row-reverse;
+  .projects {
+    position: relative;
+    left: 120px;
+  }
+}
+.projectstitle {
+  font-size: 9vw;
+  color: #333;
+}
+.all-container {
+  display: flex;
+  position: relative;
+  right: 3rem;
+}
+.projects {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  flex: 1;
+  height: 100vh;
+  overflow: hidden;
+}
+.phone {
+  width: 400px;
+  position: relative;
+  height: 600px;
+  position: relative;
+}
+.Phone {
+  z-index: 9;
+  position: relative;
+  border-radius: 5px;
+}
+.PhoneScreen {
+  width: 264px;
+  height: 567px;
+  top: 17px;
+  left: 15px;
+  position: absolute;
+  overflow: scroll;
+}
+.PhoneScreen::-webkit-scrollbar {
+  display: none;
+}
+.projectdetail {
+  gap: 10px;
+  flex: 1;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+}
+.phoneApp {
+  position: relative;
+  z-index: 1;
+  width: 264px;
+  height: 567px;
+}
+
+.projectTitle {
+  font-size: 7vh;
+  color: #555;
+}
+.projectDesc {
+  font-size: 20px;
+  color: #555;
+  text-align: justify;
+  line-height: 25px;
+}
+.projectButton {
+  border: 2px solid #555;
+  background-color: transparent;
+  outline: none;
+  color: #555;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  cursor: pointer;
+}
+.laptopApp {
+  display: block;
+}
+.laptop {
+  width: 550px;
+  height: 379px;
+}
+.Laptop {
+  width: 100%;
+  height: 100%;
+  /* background-color: blue; */
+  flex: 1;
+  top: 6rem;
+  position: relative;
+}
+.laptopApp {
+  width: 418px;
+  position: relative;
+  left: 4px;
+  border-radius: 4px;
+  height: 283px;
+}
+.LaptopScreen {
+  width: 451px;
+  height: 283px;
+  position: absolute;
+  top: 18px;
+  left: 58px;
+  overflow: scroll;
+  /* background-color: aqua; */
+}
+
+.LaptopScreen::-webkit-scrollbar {
+  display: none;
+}
+.projects-section {
+  background-color: aliceblue;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.projects-container {
+  width: 33%;
+  margin: 9rem;
+  margin-left: 0rem;
+  height: 43%;
+}
+.img-project-con {
+  width: 35rem;
+  height: 20rem;
+  position: relative;
+}
+.img-project-A {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 10;
+  /* left: 205px; */
+}
+.screen-project {
+  width: 98%;
+  border-radius: 12%;
+  position: absolute;
+  height: 100%;
+  left: 4px;
+  z-index: 0;
+}
+.F-screen-project {
+  width: 26.5rem;
+  left: 62px;
+  border-radius: 5px;
+  top: 15px;
+  height: 15rem;
+  z-index: 20;
+  position: absolute;
+}
+.text-project-con {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: start;
+  margin: 10px;
+}
+.btn-admin-con > button {
+  margin: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .ProjectsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    padding-top: 40px;
+  }
+  .all-container:nth-child(1n) {
+    flex-direction: column-reverse;
+    .projects {
+      position: relative;
+      left: 0px;
+      flex-direction: column;
+    }
+  }
+  .projectstitle {
+    font-size: 5vw;
+    color: #333;
+    text-align: center;
+  }
+  .all-container {
+    display: flex;
+  }
+  .projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    flex: 1;
+    height: 100vh;
+    /* overflow: hidden; */
+  }
+  .phone {
+    width: 400px;
+    position: relative;
+    height: 600px;
+    position: relative;
+  }
+  .Phone {
+    z-index: 9;
+    position: relative;
+    border-radius: 5px;
+  }
+  .PhoneScreen {
+    width: 264px;
+    height: 567px;
+    top: 17px;
+    left: 15px;
+    position: absolute;
+    overflow: scroll;
+  }
+  .PhoneScreen::-webkit-scrollbar {
+    display: none;
+  }
+  .projectdetail {
+    gap: 10px;
+    flex: 1;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+  }
+  .phoneApp {
+    position: relative;
+    z-index: 1;
+    width: 264px;
+    height: 567px;
+  }
+
+  .projectTitle {
+    font-size: 4vh;
+    color: #555;
+  }
+  .projectDesc {
+    font-size: 20px;
+    color: #555;
+    text-align: justify;
+    line-height: 25px;
+  }
+  .projectButton {
+    border: 2px solid #555;
+    background-color: transparent;
+    outline: none;
+    color: #555;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    cursor: pointer;
+  }
+  .laptopApp {
+    display: block;
+  }
+  .laptop {
+    width: 250px;
+    height: 190px;
+  }
+  .Laptop {
+    width: 100%;
+    height: 100%;
+    flex: 1;
+    top: 0px;
+    left: 42px;
+    position: relative;
+  }
+  .laptopApp {
+    width: 190px;
+    position: relative;
+    left: 10px;
+    border-radius: 4px;
+    height: 143px;
+  }
+  .LaptopScreen {
+    width: 221px;
+    height: 353px;
+    position: absolute;
+    top: 8px;
+    left: 18px;
+    overflow: scroll;
+    /* background-color: aqua; */
+  }
+
+  .LaptopScreen::-webkit-scrollbar {
+    display: none;
+  }
+  .projects-section {
+    background-color: aliceblue;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .projects-container {
+    width: 38%;
+    margin: 4rem;
+    margin-left: 7rem;
+    height: 43%;
+  }
+  .img-project-con {
+    width: 35rem;
+    height: 20rem;
+    position: relative;
+  }
+  .img-project-A {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 10;
+    /* left: 205px; */
+  }
+  .screen-project {
+    width: 98%;
+    border-radius: 12%;
+    position: absolute;
+    height: 100%;
+    left: 4px;
+    z-index: 0;
+  }
+  .F-screen-project {
+    width: 26.5rem;
+    left: 62px;
+    border-radius: 5px;
+    top: 15px;
+    height: 15rem;
+    z-index: 20;
+    position: absolute;
+  }
+  .text-project-con {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: start;
+    margin: 10px;
+  }
+  .btn-admin-con > button {
+    margin: 10px;
+  }
+}
