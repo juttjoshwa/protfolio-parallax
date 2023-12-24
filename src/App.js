@@ -7,7 +7,7 @@ import Login from "./Pages/Login";
 import Admin from "./Pages/Admin";
 
 function App() {
-  axios.defaults.baseURL = "http://localhost:4000/api";
+  axios.defaults.baseURL = "https://parallax-backend.vercel.app/api";
   axios.defaults.withCredentials = true;
   return (
     <div>
