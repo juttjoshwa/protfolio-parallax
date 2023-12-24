@@ -183,24 +183,25 @@
     gap: 3vh;
     align-items: center;
     justify-content: center;
-    padding: 10px;
-    padding-top: 40px;
+    padding: 1px;
+    padding-top: 20px;
   }
   .all-container:nth-child(1n) {
-    flex-direction: column-reverse;
+    flex-direction: column;
     .projects {
       position: relative;
-      left: 0px;
+      left: 85px;
       flex-direction: column;
     }
   }
   .projectstitle {
-    font-size: 5vw;
+    font-size: 8vw;
     color: #333;
     text-align: center;
   }
   .all-container {
     display: flex;
+    margin: 1px;
   }
   .projects {
     display: flex;
@@ -250,32 +251,42 @@
   }
 
   .projectTitle {
-    font-size: 4vh;
+    font-size: 5vh;
     color: #555;
+    position: relative;
+    left: 45px;
+    top: 20px;
   }
   .projectDesc {
-    font-size: 20px;
+    /* display: none; */
+    font-size: 12px;
     color: #555;
+    position: relative;
+    left: 50px;
     text-align: justify;
-    line-height: 25px;
+    padding: 20px;
+    line-height: 15px;
   }
   .projectButton {
-    border: 2px solid #555;
+    border: 1px solid #555;
     background-color: transparent;
     outline: none;
     color: #555;
     padding-left: 1rem;
+    position: relative;
+    left: 48px;
     padding-right: 1rem;
     padding-top: 0.4rem;
     padding-bottom: 0.4rem;
     cursor: pointer;
+    font-size: 13px;
   }
   .laptopApp {
     display: block;
   }
   .laptop {
-    width: 250px;
-    height: 190px;
+    width: 200px;
+    height: 130px;
   }
   .Laptop {
     width: 100%;
@@ -286,11 +297,12 @@
     position: relative;
   }
   .laptopApp {
-    width: 190px;
+    width: 150px;
     position: relative;
-    left: 10px;
+    left: 5px;
     border-radius: 4px;
-    height: 143px;
+    height: 103px;
+    bottom: 9px;
   }
   .LaptopScreen {
     width: 221px;
