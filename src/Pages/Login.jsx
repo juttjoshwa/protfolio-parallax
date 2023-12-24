@@ -14,10 +14,16 @@ const Login = () => {
     e.preventDefault();
     setloading(true);
     try {
-      const res = await axios.post("/login", {
-        name: name,
-        password: password,
-      });
+      const res = await axios.post(
+        "/login",
+        {
+          name: name,
+          password: password,
+        },
+        {
+          withCredentials: true,
+        }
+      );
       setuser(res.data.user);
       setloading(false);
       nevigate("/admin");
